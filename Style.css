@@ -18,7 +18,7 @@ body {
 section, header {
     width: 80%;
     max-width: 700px;
-    margin: auto;
+    margin-top: -30em;
 }
 
 
@@ -59,7 +59,8 @@ h1 {
     font-size: 5.653rem;
     padding-top: .5em;
     text-transform: uppercase;
-    line-height: 1em
+    line-height: 1em;
+
 }
 
 .lower {
@@ -143,7 +144,7 @@ nav {
     margin: 0;
     width: 100%;
     background: #E69320;
-    padding: 1.5em 0;
+    padding: 1.3em 0;
     font-size: 0.75rem;
 }
 
@@ -164,7 +165,7 @@ nav a {
 
 nav a:hover {
     border-bottom: none;
-    color: #008FA1;
+    color: #000000;
     transition: all 0.3s ease-in-out
 }
 
