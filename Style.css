@@ -2,7 +2,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-size: 105%;
+    font-size: 100%;
     font-weight: normal;
     line-height: 1em;
 }
@@ -35,6 +35,12 @@ section, header {
 .street {
     background: #87460D;
     padding: 3em 0;
+}
+
+.gridimage {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
 }
 
 
@@ -132,23 +138,23 @@ a:hover {
 
 nav {
     position: fixed;
-    top: 100px;
+    top: 0;
     left: 0;
     margin: 0;
-    width: 20%;
-    background: #87460D;
-    padding: 2em 0;
+    width: 100%;
+    background: #E69320;
+    padding: 1.5em 0;
     font-size: 0.75rem;
 }
 
 nav ul {
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px
 }
 
 nav ul li {
-
+    display: inline;
     margin: 20px
 }
 
@@ -158,7 +164,7 @@ nav a {
 
 nav a:hover {
     border-bottom: none;
-    color: rgb(255, 187, 127);
+    color: #008FA1;
     transition: all 0.3s ease-in-out
 }
 
@@ -224,3 +230,30 @@ footer p {
   footer .connections a:hover svg path {
           fill:  #D8C385;
           transition: all 0.2s ease-in-out;}
+/*
+
+
+@media only screen and (max-width: 900px) {
+            .gridimage {
+              display: grid;
+              grid-gap: 20px;
+              grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+              padding-bottom: 2em;}
+
+              h1 {
+                font-size: 4.5rem
+            }
+
+@media only screen and (max-width: 650px) {
+
+    h1 {
+        font-size: 3rem
+    }
+
+    header h2 {
+        font-size: 1.5rem
+    }
+
+
+
+}
