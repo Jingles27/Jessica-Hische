@@ -47,11 +47,12 @@ section, header {
 /*-- Styling typography --*/
 
 header {
-margin-top: -39em;
-padding-bottom: 500px;
+margin-top: -45em;
+padding-bottom: 100px;
+margin-left: 5em;
 }
 
-h1, h2, blockquote {
+ h2, blockquote {
     color: #87460D;
 }
 
@@ -61,13 +62,15 @@ p, blockquote, h1 {
 }
 
 h1 {
-    font-size: 5.653rem;
-    padding-top: .5em;
+    font-size: 11rem;
+    padding-top: 0.5em;
     text-transform: uppercase;
     line-height: 1em;
-
-
-}
+    color: #F55C2B;
+    font-family: mojito,sans-serif;
+font-weight: 700;
+font-style: normal;
+   }
 
 .lower {
     text-transform: none
@@ -175,7 +178,7 @@ nav a:hover {
     transition: all 0.3s ease-in-out
 }
 
-hr {
+header hr {
     margin: 100px 0;
     height: 1px;
     background-color: #87460D;
