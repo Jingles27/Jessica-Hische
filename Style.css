@@ -18,7 +18,7 @@ body {
 section, header {
     width: 80%;
     max-width: 700px;
-    margin-top: -30em;
+    margin: auto;
 }
 
 
@@ -46,6 +46,10 @@ section, header {
 
 /*-- Styling typography --*/
 
+header {
+margin-top: -45em;
+}
+
 h1, h2, blockquote {
     color: #87460D;
 }
@@ -60,6 +64,7 @@ h1 {
     padding-top: .5em;
     text-transform: uppercase;
     line-height: 1em;
+
 
 }
 
