@@ -21,21 +21,34 @@ section, header {
     margin: auto;
 }
 
+.morning {
+  padding-top: 3em;
+}
+.img1 {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: -1em;
+}
 
-
+.img2 {
+  padding: 0;
+  margin: 0;
+}
 .market img {
     padding-bottom: 2em
 }
 
 .market {
-    background: #D8C385;
+    background: #f7f7f7;
     padding: 3em 0;
 }
 
 .street {
-    background: #87460D;
     padding: 3em 0;
+    background-color: #E1CF26;
 }
+
+
 
 .gridimage {
     display: grid;
@@ -43,17 +56,22 @@ section, header {
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
 }
 
+.last {
+background-color: #f7f7f7
+  padding: 3em 0;
+
+}
 
 /*-- Styling typography --*/
 
 header {
-margin-top: -45em;
-padding-bottom: 100px;
-margin-left: 5em;
+margin-top: -53em;
+padding-bottom: 1px;
+margin-left: 8em;
 }
 
- h2, blockquote {
-    color: #87460D;
+ h2 {
+    color: #F55C2B;
 }
 
 p, blockquote, h1 {
@@ -62,23 +80,23 @@ p, blockquote, h1 {
 }
 
 h1 {
-    font-size: 11rem;
+    font-size: 17rem;
     padding-top: 0.5em;
-    text-transform: uppercase;
     line-height: 1em;
     color: #F55C2B;
-    font-family: mojito,sans-serif;
-font-weight: 700;
-font-style: normal;
-   }
+    font-family: buffet-script,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 5px 1px 0px #000000;
+  }
 
 .lower {
     text-transform: none
 }
 
 h2 {
-    font-size: 1.999rem;
-    margin: 3em 0 1em 0;
+    font-size: 3rem;
+    margin: 1em 0 1em 0;
 }
 
 blockquote {
@@ -86,6 +104,10 @@ blockquote {
     font-style: italic;
     hanging-punctuation: first;
     text-indent: -0.5rem
+}
+
+blockquote {
+  color: #87460D;
 }
 
 cite {
@@ -99,12 +121,15 @@ header h2 {
     font-style: italic;
     margin-top: -.5em;
     margin-bottom: 1.5em;
-    color: #333333
+    color: #000000
 }
 
 header p {
     font-size: 1.3rem
 }
+
+
+
 
 .indent {
     padding-left: 4em;
@@ -112,11 +137,12 @@ header p {
 }
 
 .street p {
-    color: #f7f7f7;
+    color: #000000;
 }
 
 .street h2 {
-    color: #f7f7f7;
+    color: #000000;
+
 }
 
 .leader {
@@ -187,11 +213,22 @@ header hr {
 }
 
 /*----- IMAGES -----*/
+
 img {
     display: block;
     padding: 0;
     max-width: 100%;
 }
+
+.gridimage {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  background-color: #87460D;;
+}
+
+
+.nomargin {margin: 0}
 
 footer {
     background: #030307;
