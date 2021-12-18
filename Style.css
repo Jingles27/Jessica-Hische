@@ -21,6 +21,13 @@ section, header {
     margin: auto;
 }
 
+.second {
+
+  margin-left: -1em;
+  padding-right: 4em;
+}
+
+
 .morning {
   padding-top: 3em;
 }
@@ -67,7 +74,7 @@ background-color: #f7f7f7
 header {
 margin-top: -53em;
 padding-bottom: 1px;
-margin-left: 8em;
+margin-left: 9em;
 }
 
  h2 {
