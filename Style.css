@@ -89,6 +89,9 @@ section, header {
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
     padding-top: 0.8em;
     padding-bottom: 0.8em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    margin-top: 3em;
 }
 
 
