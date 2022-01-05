@@ -24,6 +24,16 @@ section, header {
     margin: auto;
 }
 
+.Buttermilk {
+
+  padding-top: 1em;
+  padding-bottom: 2em;
+  position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
 .second {
 
   margin-left: -3em;
