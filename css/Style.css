@@ -239,6 +239,8 @@ img {
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   background-color: #87460D;;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
 }
 
 
