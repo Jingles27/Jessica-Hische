@@ -87,6 +87,8 @@ section, header {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
 }
 
 .last {
